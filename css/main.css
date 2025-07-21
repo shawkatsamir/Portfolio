@@ -471,7 +471,11 @@ textarea {
     margin: 0;
   }
 
-  .contact .contact-socials {
+  .contact-socials:last-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
     margin-top: 15.8rem;
     padding: 1.6rem 0;
   }
